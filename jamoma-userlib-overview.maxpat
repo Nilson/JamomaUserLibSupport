@@ -16,12 +16,12 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"statusbarvisible" : 0,
+		"toolbarvisible" : 0,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
+		"enablehscroll" : 0,
+		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -140,7 +140,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 424.0, 0.0, 189.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 499.0, 97.0, 146.0, 28.0 ],
+					"presentation_rect" : [ 544.0, 97.0, 146.0, 28.0 ],
 					"text" : "Audio"
 				}
 
@@ -156,7 +156,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 337.0, 34.0, 189.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 97.0, 146.0, 28.0 ],
+					"presentation_rect" : [ 372.0, 97.0, 146.0, 28.0 ],
 					"text" : "Video"
 				}
 
@@ -172,7 +172,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 337.0, 0.0, 189.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 97.0, 146.0, 28.0 ],
+					"presentation_rect" : [ 63.0, 97.0, 146.0, 28.0 ],
 					"text" : "Control"
 				}
 
@@ -241,7 +241,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 187.0, 518.0, 59.5, 20.0 ],
+					"patching_rect" : [ 371.5, 551.0, 59.5, 20.0 ],
 					"text" : "pak i i i i"
 				}
 
@@ -611,18 +611,18 @@
  ]
 					}
 ,
-					"patching_rect" : [ 137.0, 577.5, 69.0, 19.0 ],
+					"patching_rect" : [ 137.0, 577.5, 253.5, 19.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p hoverHint"
@@ -676,7 +676,7 @@
 					"rounded" : 10.0,
 					"spacing_y" : 6.0,
 					"tabcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
-					"tabs" : [ "jmod.psychiatre~", "jmod.Zlooper~", "jmod.Zlooper2~", "jmod.Zgran~", "jmod.buffer-tester~", "jmod.interpolate~", "jmod.fffb~", "jmod.autotalent~", "jmod.tap.yalfo~", "jmod.tap.warp~", "jmod.stereoMatrix~", "jmod.tap.reverb~", "jmod.tap.procrastinate~", "jmod.tap.harmonizer~", "jmod.tap.grabloop~", "jmod.tap.anticlick~", "jmod.shpidel~", "jmod.shdecim~", "jmod.shcheb~", "jmod.shbubb~", "jmod.sintrack~", "jmod.demodulate~", "jmod.autoscale~", "jcom.sintrack~", "jcom.scale~", "jcom.route~", "jcom.ms.multiOut~", "jcom.fromsignal~", "jcom.demodulate~", "jcom.autoscale~", "jmod.rdp.sampler~", "jmod.rdp.granulation~", "jmod.munger~", "jmod.analyzer~", "dot.sintrack~", "dot.schmitt~", "dot.scale~", "dot.route~", "dot.mix4~", "dot.interpolate4~", "dot.fromsignal~", "dot.autoscale~", "dot.asyncdemod~", "jmod.nav.sogs~", "jmod.nav.rogs~", "jmod.nav.munger~", "jmod.nav.harmonicShifter~", "jmod.nav.env~", "jmod.nav.ambispat~", "jmod.yin~", "jmod.imtr.supervp.trans~", "jmod.imtr.sogs~", "jmod.ambi.rotate~", "jmod.holoSoundcues~", " " ]
+					"tabs" : [ "jmod.psychiatre~", "jmod.Zlooper~", "jmod.Zlooper2~", "jmod.Zgran~", "jmod.buffer-tester~", "jmod.interpolate~", "jmod.fffb~", "jmod.autotalent~", "jmod.tap.yalfo~", "jmod.tap.warp~", "jmod.stereoMatrix~", "jmod.tap.reverb~", "jmod.tap.procrastinate~", "jmod.tap.harmonizer~", "jmod.tap.grabloop~", "jmod.tap.anticlick~", "jmod.shpidel~", "jmod.shdecim~", "jmod.shcheb~", "jmod.shbubb~", "jmod.sintrack~", "jmod.demodulate~", "jmod.autoscale~", "jmod.rdp.sampler~", "jmod.rdp.granulation~", "jmod.munger~", "jmod.analyzer~", "jmod.nav.sogs~", "jmod.nav.rogs~", "jmod.nav.munger~", "jmod.nav.harmonicShifter~", "jmod.nav.env~", "jmod.nav.ambispat~", "jmod.yin~", "jmod.imtr.supervp.trans~", "jmod.imtr.sogs~", "jmod.ambi.rotate~", "jmod.holoSoundcues~", " " ]
 				}
 
 			}
@@ -744,7 +744,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 619.0, 119.0, 285.0, 323.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 125.0, 292.0, 525.0 ],
+					"presentation_rect" : [ 63.0, 125.0, 292.0, 525.0 ],
 					"rounded" : 10.0,
 					"spacing_y" : 6.0,
 					"tabcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
@@ -766,11 +766,11 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 27.0, 119.0, 158.0, 323.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 499.0, 125.0, 334.0, 519.0 ],
+					"presentation_rect" : [ 535.0, 125.0, 292.0, 471.0 ],
 					"rounded" : 10.0,
 					"spacing_y" : 6.0,
 					"tabcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
-					"tabs" : [ "jmod.psychiatre~", "jmod.Zlooper~", "jmod.Zlooper2~", "jmod.Zgran~", "jmod.buffer-tester~", "jmod.interpolate~", "jmod.fffb~", "jmod.autotalent~", "jmod.tap.yalfo~", "jmod.tap.warp~", "jmod.stereoMatrix~", "jmod.tap.reverb~", "jmod.tap.procrastinate~", "jmod.tap.harmonizer~", "jmod.tap.grabloop~", "jmod.tap.anticlick~", "jmod.shpidel~", "jmod.shdecim~", "jmod.shcheb~", "jmod.shbubb~", "jmod.sintrack~", "jmod.demodulate~", "jmod.autoscale~", "jcom.sintrack~", "jcom.scale~", "jcom.route~", "jcom.ms.multiOut~", "jcom.fromsignal~", "jcom.demodulate~", "jcom.autoscale~", "jmod.rdp.sampler~", "jmod.rdp.granulation~", "jmod.munger~", "jmod.analyzer~", "dot.sintrack~", "dot.schmitt~", "dot.scale~", "dot.route~", "dot.mix4~", "dot.interpolate4~", "dot.fromsignal~", "dot.autoscale~", "dot.asyncdemod~", "jmod.nav.sogs~", "jmod.nav.rogs~", "jmod.nav.munger~", "jmod.nav.harmonicShifter~", "jmod.nav.env~", "jmod.nav.ambispat~", "jmod.yin~", "jmod.imtr.supervp.trans~", "jmod.imtr.sogs~", "jmod.ambi.rotate~", "jmod.holoSoundcues~", " " ],
+					"tabs" : [ "jmod.psychiatre~", "jmod.Zlooper~", "jmod.Zlooper2~", "jmod.Zgran~", "jmod.buffer-tester~", "jmod.interpolate~", "jmod.fffb~", "jmod.autotalent~", "jmod.tap.yalfo~", "jmod.tap.warp~", "jmod.stereoMatrix~", "jmod.tap.reverb~", "jmod.tap.procrastinate~", "jmod.tap.harmonizer~", "jmod.tap.grabloop~", "jmod.tap.anticlick~", "jmod.shpidel~", "jmod.shdecim~", "jmod.shcheb~", "jmod.shbubb~", "jmod.sintrack~", "jmod.demodulate~", "jmod.autoscale~", "jmod.rdp.sampler~", "jmod.rdp.granulation~", "jmod.munger~", "jmod.analyzer~", "jmod.nav.sogs~", "jmod.nav.rogs~", "jmod.nav.munger~", "jmod.nav.harmonicShifter~", "jmod.nav.env~", "jmod.nav.ambispat~", "jmod.yin~", "jmod.imtr.supervp.trans~", "jmod.imtr.sogs~", "jmod.ambi.rotate~", "jmod.holoSoundcues~", " " ],
 					"truncate" : 0
 				}
 
@@ -811,7 +811,36 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "", "", "", "", "" ],
+									"patching_rect" : [ 247.5, 134.0, 310.333344, 19.0 ],
+									"text" : "regexp (~.maxhelp) @substitute ~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "", "", "", "", "" ],
+									"patching_rect" : [ 3.5, 512.0, 108.0, 19.0 ],
+									"text" : "regexp jmod.\\\\S*~"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
@@ -1050,16 +1079,16 @@
 ,
 									"patching_rect" : [ 152.875, 571.5, 76.25, 20.0 ],
 									"saved_object_attributes" : 									{
+										"fontface" : 0,
+										"fontsize" : 12.0,
 										"default_fontface" : 0,
+										"tags" : "",
 										"digest" : "",
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontname" : "Arial",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p"
@@ -1489,16 +1518,16 @@
 ,
 									"patching_rect" : [ 762.5, 571.5, 116.5, 20.0 ],
 									"saved_object_attributes" : 									{
+										"fontface" : 0,
+										"fontsize" : 12.0,
 										"default_fontface" : 0,
+										"tags" : "",
 										"digest" : "",
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontname" : "Arial",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p"
@@ -1756,16 +1785,16 @@
 ,
 									"patching_rect" : [ 22.5, 571.5, 51.5, 20.0 ],
 									"saved_object_attributes" : 									{
+										"fontface" : 0,
+										"fontsize" : 12.0,
 										"default_fontface" : 0,
+										"tags" : "",
 										"digest" : "",
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontname" : "Arial",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p"
@@ -2066,16 +2095,16 @@
 ,
 									"patching_rect" : [ 522.25, 595.5, 116.5, 20.0 ],
 									"saved_object_attributes" : 									{
+										"fontface" : 0,
+										"fontsize" : 12.0,
 										"default_fontface" : 0,
+										"tags" : "",
 										"digest" : "",
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontname" : "Arial",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p"
@@ -2307,16 +2336,16 @@
 ,
 									"patching_rect" : [ 324.25, 571.5, 71.5, 20.0 ],
 									"saved_object_attributes" : 									{
+										"fontface" : 0,
+										"fontsize" : 12.0,
 										"default_fontface" : 0,
+										"tags" : "",
 										"digest" : "",
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontname" : "Arial",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p"
@@ -2721,7 +2750,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-45", 1 ],
+									"destination" : [ "obj-16", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-15", 3 ]
@@ -2734,6 +2763,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-15", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-45", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-16", 2 ]
 								}
 
 							}
@@ -3109,16 +3147,16 @@
 ,
 					"patching_rect" : [ 18.0, 90.0, 937.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p create-userlib-Tab"
@@ -3138,7 +3176,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 477.0, 119.0, 114.0, 317.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 125.0, 146.0, 525.0 ],
+					"presentation_rect" : [ 372.0, 125.0, 146.0, 525.0 ],
 					"rounded" : 10.0,
 					"spacing_y" : 6.0,
 					"tabcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
@@ -3220,7 +3258,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 3 ],
+					"destination" : [ "obj-6", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-14", 2 ]
@@ -3283,7 +3321,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
+					"destination" : [ "obj-6", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-251", 2 ]
@@ -3391,7 +3429,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 2 ],
+					"destination" : [ "obj-6", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 2 ]
