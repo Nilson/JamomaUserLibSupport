@@ -5,6 +5,8 @@ GenerateHTML.maxpat:            Generates fresh HTML reference pages for all Use
 jamoma-userlib-overview.maxpat: An Overview of the Jamoma UserLib modules.
 
 ================================================================================================================
+HOW TO ADD YOUR MODULES TO THE JAMOMA USERLIB
+
 
 If you wish to add your modules to the UserLib, please contact the Jamoma team (http://jamoma.org/forum.html).
 To keep the UserLib maintenance low, we ask you to respect a few simple guidelines:
