@@ -1,6 +1,6 @@
 This folder contains some files to facilitate the work with the Jamoma UserLib.
 
-jcom.userLibPatch.maxpat:       To find the path of the UserLib in MaxMSP.
+jcom.userLibPath.maxpat:        To find the absolute path of the UserLib in MaxMSP.
 GenerateHTML.maxpat:            Generates fresh HTML reference pages for all UserLib modules
 jamoma-userlib-overview.maxpat: An Overview of the Jamoma UserLib modules.
 
